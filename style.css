@@ -4,3 +4,12 @@
 body {
 	margin-top:50px;
 }
+form {
+	margin: 0 auto;
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin: auto;
+}

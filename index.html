@@ -2,12 +2,19 @@
 	<head>
 		<title>Cicada 2.0</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src= "validate.js"></script>
 	</head>
 	<body>
 		<h1 class="content">Cicada 2.0</h1>
 		<br>
 		<p class="content">
-			Welcome to Cicada 2.0. Once you find the pwd blah blah blah.
+			Welcome to Cicada 2.0.
 		</p>
+		<img src="placeholder.png" alt = "3302" style="width:240px;height:320px;">
+		<form id= "form_id" method = "post" name = "pswdForm">
+			<label> Enter Password You Found: </label>
+		  <input id = "pswd" name="password"  type="text">
+			<input onclick = "validationProcess()" type = "button" value= "Submit">
+		</form>
 	</body>
 </html>
