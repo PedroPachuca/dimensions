@@ -15,5 +15,7 @@ img {
 }
 
 .white {
-	color: #FFFF;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	text-align: center;
 }
