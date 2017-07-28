@@ -7,7 +7,7 @@ function validationProcess() {
 
 function validation() {
     var pass = document.getElementById('pswd').value;
-    var truePass = "240320";
+    var truePass = "560300";
     if(pass == truePass) {
       return true;
     }
